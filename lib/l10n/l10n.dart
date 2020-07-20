@@ -287,6 +287,33 @@ class S {
         'Current',
         name: 'shopping_lists_tab_current',
       );
+
+  String get menu_layout => Intl.message(
+        'Layout',
+        name: 'menu_layout',        
+        desc: 'Shown on the main screen dropdown, next to the view_stream material icon.',
+      );
+
+  String get layout_dialog_title => Intl.message(
+        'Layout',
+        name: 'layout_dialog_title',
+      );
+
+  String get layout_dialog_one_list_title => Intl.message(
+        'One list',
+        name: 'layout_dialog_one_list_title',
+      );
+
+  String get layout_dialog_multiple_lists_title => Intl.message(
+        'Multiple lists',
+        name: 'layout_dialog_multiple_lists_title',
+      );
+
+  String get layout_dialog_content => Intl.message(
+        'You can change that later.',
+        name: 'layout_dialog_content',        
+        desc: 'Small text shown under one/multiple lists options.',
+      );
 }
 
 class ArbifyLocalizationsDelegate extends LocalizationsDelegate<S> {

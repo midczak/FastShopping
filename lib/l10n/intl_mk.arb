@@ -1,11 +1,6 @@
 {
     "@@locale": "mk",
-    "@@last_modified": "2020-06-23T19:45:42+00:00",
-    "app_title": "Брз Шопинг",
-    "@app_title": {
-        "type": "text",
-        "description": "Shown on top of the screen."
-    },
+    "@@last_modified": "2020-06-28T12:57:43+00:00",
     "menu_donate": "Донирај",
     "@menu_donate": {
         "type": "text",
@@ -255,5 +250,35 @@
     "@shopping_lists_tab_current": {
         "type": "text",
         "description": ""
+    },
+    "app_title": "Брз Шопинг",
+    "@app_title": {
+        "type": "text",
+        "description": "Shown on top of the screen."
+    },
+    "layout_dialog_one_list_title": "Една листа",
+    "@layout_dialog_one_list_title": {
+        "type": "text",
+        "description": ""
+    },
+    "layout_dialog_multiple_lists_title": "Повеќе листи",
+    "@layout_dialog_multiple_lists_title": {
+        "type": "text",
+        "description": ""
+    },
+    "layout_dialog_title": "Изглед",
+    "@layout_dialog_title": {
+        "type": "text",
+        "description": ""
+    },
+    "menu_layout": "Изглед",
+    "@menu_layout": {
+        "type": "text",
+        "description": "Shown on the main screen dropdown, next to the view_stream material icon."
+    },
+    "layout_dialog_content": "Ова можете да го промените подоцна.",
+    "@layout_dialog_content": {
+        "type": "text",
+        "description": "Small text shown under one\/multiple lists options."
     }
 }

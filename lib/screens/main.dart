@@ -52,6 +52,17 @@ class _MainScreenState extends State<MainScreen> {
         PopupMenuButton<String>(
           itemBuilder: (context) => [
             PopupMenuItem(
+              value: 'layout',
+              child: Row(
+                children: [
+                  const Icon(Icons.view_stream),
+                  const SizedBox(width: 16),
+                  Text(S.of(context).menu_layout),
+                ],
+              ),
+            ),
+            PopupMenuDivider(),
+            PopupMenuItem(
               value: 'donate',
               child: Row(
                 children: [
@@ -73,7 +84,13 @@ class _MainScreenState extends State<MainScreen> {
             ),
           ],
           onSelected: (index) {
-            if (index == 'donate') {
+            if (index == 'layout') {
+              showModal(
+                context: context,
+                configuration: FadeScaleTransitionConfiguration(),
+                builder: (context) => LayoutDialog(),
+              );
+            } else if (index == 'donate') {
               showModal(
                 context: context,
                 configuration: FadeScaleTransitionConfiguration(),

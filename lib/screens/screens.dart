@@ -2,5 +2,6 @@ export 'add_item_dialog.dart';
 export 'add_list_dialog.dart';
 export 'delete_list_dialog.dart';
 export 'donate_dialog.dart';
+export 'layout_dialog.dart';
 export 'lists.dart';
 export 'main.dart';

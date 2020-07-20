@@ -1,6 +1,6 @@
 {
     "@@locale": "en",
-    "@@last_modified": "2020-06-23T19:17:00+00:00",
+    "@@last_modified": "2020-06-27T23:08:14+00:00",
     "app_title": "Fast Shopping",
     "@app_title": {
         "type": "text",
@@ -255,5 +255,30 @@
     "@shopping_lists_tab_current": {
         "type": "text",
         "description": ""
+    },
+    "menu_layout": "Layout",
+    "@menu_layout": {
+        "type": "text",
+        "description": "Shown on the main screen dropdown, next to the view_stream material icon."
+    },
+    "layout_dialog_title": "Layout",
+    "@layout_dialog_title": {
+        "type": "text",
+        "description": ""
+    },
+    "layout_dialog_one_list_title": "One list",
+    "@layout_dialog_one_list_title": {
+        "type": "text",
+        "description": ""
+    },
+    "layout_dialog_multiple_lists_title": "Multiple lists",
+    "@layout_dialog_multiple_lists_title": {
+        "type": "text",
+        "description": ""
+    },
+    "layout_dialog_content": "You can change that later.",
+    "@layout_dialog_content": {
+        "type": "text",
+        "description": "Small text shown under one\/multiple lists options."
     }
 }
